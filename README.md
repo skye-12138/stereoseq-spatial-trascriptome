@@ -24,6 +24,12 @@ This step will cluster spatial data by leiden, and output a .h5ad file.
 singularity exec ../SAW_v4.1.0.sif spatialCluster -i ./SS200000893TL_B3.TissueCut200.gef -o ./SS200000893TL_B3.TissueCut50.h5ad -s 50
 ```
 
+### batch check 
+
+![image](https://user-images.githubusercontent.com/49186667/218060917-0ef755d6-2ee0-4ced-b43f-b973491bf608.png)
+
+
+
 ### 3. QC and annotate clusters 
 
 The leiden umap from step2 could be very strange (may be due to no filter step in STOmics?), present below:
