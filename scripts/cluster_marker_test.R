@@ -75,6 +75,8 @@ plot_feature<-function(seu,feature,name){
 #######
 hpca.se <- HumanPrimaryCellAtlasData()
 Blue.se=BlueprintEncodeData()
+####if h5seurat is not generated, this step is needed
+#Convert("SS200000893TL_B3.TissueCut200.h5ad", dest = "h5seurat", overwrite = F)
 #########################change to your own h5seurat path
 sc <- LoadH5Seurat("./SS200000893TL_B3.TissueCut200.h5seurat",meta.data = T,misc=F)
 scnew <- CreateSeuratObject(counts = sc@assays$RNA,min.cells=3,min.features=0)
