@@ -4,7 +4,7 @@ This script is used for recording of WZB spatial transcriptome analysis
 ## Sample
 The samples are from hypophysoma, and one HUADA spatial transcriptomics chip contains 2 samples from patient 151 and 160 respectively.
 
-The samples have its corresponding scRNAseq data
+The samples have their corresponding scRNAseq data
 
 ## Process
 Start from SS200000893TL_B3.TissueCut.gem
